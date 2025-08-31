@@ -24,7 +24,56 @@ namespace Calculator_test
             int result = _calculator.Add(a, b);
             // Assert
             Assert.AreEqual(expected, result);
+        }
+        [TestMethod]
+        public void Test_Subtract()
+        {
+            // Arrange
+            int a = 5;
+            int b = 3;
+            int expected = 2;
+            // Act
+            int result = _calculator.Subtract(a, b);
+            // Assert
+            Assert.AreEqual(expected, result);
+        }
+        [TestMethod]
+        public void Test_Multiply()
+        {
+            // Arrange
+            int a = 5;
+            int b = 3;
+            int expected = 15;
+            // Act
+            int result = _calculator.Multiply(a, b);
+            // Assert
+            Assert.AreEqual(expected, result);
+        }
+        [TestMethod]
+        public void Test_Divide()
+        {
+            // Arrange
+            int a = 6;
+            int b = 3;
+            double expected = 2.0;
+            // Act
+            double result = _calculator.Divide(a, b);
+            // Assert
+            Assert.AreEqual(expected, result);
+        }
+        [TestMethod]
+        [ExpectedException(typeof(DivideByZeroException))]
+        public void Test_DivideByZero()
+        {
+            // Arrange
+            int a = 6;
+            int b = 0;
+            // Act
+            _calculator.Divide(a, b);
+            // Assert is handled by ExpectedException
 
         }
+
+
     }
 }
