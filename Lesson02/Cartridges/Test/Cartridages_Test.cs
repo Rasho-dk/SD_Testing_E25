@@ -44,6 +44,8 @@ namespace Test
         [DataRow(3)]
         [DataRow(4)]
         // Negative values Edge case
+        [DataRow(-1)]
+        [DataRow(-100)]
         public void Test_Calculate_Throws_Exception_For_Less_Than_Minimum_Cartridges(int numberOfCartridges)
         {
             // Act
