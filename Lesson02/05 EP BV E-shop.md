@@ -17,14 +17,43 @@ Use black-box analysis to identify a comprehensive series of test cases:
 
 #### Solution
 
-| **_Partition type_**| **_Partition_**|**_Test case values_**|**_Expected output_**|**_Boundary values_**|**_Test case values_**|
-|---------------|---------|------------------|--------------|-------------|------------------|
-| **Valid**| `0.01 - 300`| `200.05`|`0%` discount|`0.01` - `300`|`0.00`, `0.01`, `0.02`, `299.99`, `300`, `300.01`|
-| **Valid**|`300.01 - 800`| `450.99`|`5%` discount|`300.01` - `800`|`300` ,`300.01`, `300.02` ,`799.99`, `800`, `800.01`|
-| **Valid**|`800.01` - `Max integer`|`1000.99`|`10%` discount|`800.01`|`800`, `800.01`, `800.02`|
-| **Invalid**|`0`|`0`|error|`0`|`-1`, `0`, `0.01` |
-| **Invalid**|`Min integer`- `-0.01`|`-20.45`|error|`-1`|`-0.02`, `-0.01`, `0` |
+1. Equivalence partitions
 
-**List of test cases:**
+|Partitions|Test cases|Expected output|
+|-|--:|--:|
+|0-300|150 kr|0%|
+|300.01-800|550 kr|5%|
+|800.01-MAX DOUBLE|900 kr|10%|
 
-- `-20.45`, `-0.02`, `-0.01`, `0.00`, `0.01`, `0.02`, `299.99`, `300`, `300.01`, `300.02` ,`799.99`, `800`, `800.01`, `800.02`
+Potential test case values: `150 kr` `550 kr` `900 kr`.
+   
+2. 3-value boundary value analysis
+
+|Partitions|Boundary values|Test case values|
+|-|-|-|
+|0-300|0 300|0 0.01 299.99 300 300.01|
+|300.01-800|300.01 800|300 300.01 300.02 799.99 800 800.01|
+|800.01-MAX DOUBLE|800.01|800 800.01 800.02|
+
+3. List of test cases
+
+|Input value|Expected output|
+|--:|--:|
+|0.00 kr|0%|
+|0.01 kr|0%|
+|150.00 kr|0%|
+|299.99 kr|0%|
+|300.00 kr|0%|
+|300.01 kr|5%|
+|300.02 kr|5%|
+|550.00 kr|5%|
+|799.99 kr|5%|
+|800.00 kr|5%|
+|800.01 kr|10%|
+|800.02 kr|10%|
+|900.00 kr|10%|
+
+4. Code solution
+- Python (Pytest): https://github.com/arturomorarioja/py_eshop_unit_tests
+- JavaScript (Jest): https://github.com/arturomorarioja/js_eshop_unit_tests
+- PHP8 (PHPUnit): https://github.com/arturomorarioja/php_eshop_unit_tests
