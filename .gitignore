@@ -6,3 +6,4 @@
 .vs/slnx.sqlite
 *.json
 .idea/
+**/toyEnv/
