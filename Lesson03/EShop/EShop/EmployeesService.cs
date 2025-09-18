@@ -36,7 +36,7 @@ namespace EShop
         }
         public decimal GetDiscount()
         {
-            return CountYearOfEmployment() * 0.05m; // 5% discount
+            return CountYearOfEmployment() * 0.5m; // 5% discount
         }
 
         private int CountYearOfEmployment()

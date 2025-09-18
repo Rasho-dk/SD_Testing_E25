@@ -14,6 +14,29 @@ namespace Test
             _employee = new Employees();
             _eShop = new EmployeesService(_employee);
         }
+
+        #region Unit Test GetDiscount
+        [TestCase("01-12-2020", 2.0 )]
+        public void TestGetDiscount(string inputData, decimal expectedValue)
+        {
+            //Arrange
+            _employee = new Employees()
+            {
+                DateOfEmployment = DateOnly.Parse(inputData)
+            };
+            _eShop = new EmployeesService(_employee);
+            //Act
+            var result = _eShop.GetDiscount();
+            //Assert
+            Assert.That(result, Is.EqualTo(expectedValue));
+        }
+
+
+        #endregion
+
+        #region Unit Tests for DateOfEmployment Property
+        //TODO: Write Unit Tests for DateOfEmployment Property
+        #endregion
         #region DateOfBirth Tests
         [TestCase("31-12-2008")] // Partition value less than 18 years old - upper boundary
         [TestCase("01-01-2026")] // Edge case, future date
@@ -53,7 +76,10 @@ namespace Test
             yield return new TestCaseData(formattedDate, formattedDate);
         }
         #endregion
+
+        #region Unit Tests for EducationLevel Property
         //TODO Write Unit Tests for EducationLevel Property
+        #endregion
         #region Salary Tests
 
         [TestCase(19999.99)] // Partition value 20000 - 100000 lower boundary
