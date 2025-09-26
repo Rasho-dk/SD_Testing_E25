@@ -19,7 +19,7 @@ namespace MeasureConverterLib.Models
 
         public double Convert()
         {
-            return unit switch
+            return Unit switch
             {
                 SystemOfUnits.Metric => Math.Abs(Math.Round(Value * CmPerInch, 2)), //  in -> cm
                 SystemOfUnits.Imperial => Math.Abs(Math.Round(Value / CmPerInch, 2)), // cm -> in
