@@ -76,7 +76,7 @@ Write "Insert country code"
 Read CountryCode
 
 Open employees file 
-If not error
+If not error // Its hard to test this bez what if we dont have premsisons to open then we can rais an error with message
     While not eof
         Read file line
         If employee's country code = CountryCode
