@@ -14,7 +14,7 @@ Write a happy path end-to-end test for the [webshop sample](https://github.com
 12. Click on "Cart". Confirm that it is empty. Leave the modal
 13. Log out. Confirm that the option "Log in" is on the page
 
-Do it in:
+Implement it in:
 - Selenium WebDriver
 - Cypress
 - Playwright
