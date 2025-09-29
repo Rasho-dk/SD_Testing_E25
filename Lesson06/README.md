@@ -35,6 +35,8 @@
 [Check out the following slides on Itslearning]: #
 [- **End-to-End UI Testing**]: #
 [- **Selenium**, with especial attention to Selenium WebDriver(https://www.selenium.dev/documentation/webdriver/)]: #
+[- **Cypress**]: #
+[- **Playwright**]: #
 [Check out the following code samples]: #
 [- Selenium WebDriver]: #
 [  - Basic(https://github.com/arturomorarioja/js_basic_selenium_webdriver_tests)]: #
@@ -44,9 +46,12 @@
 [  - Basic(https://github.com/arturomorarioja/js_basic_cypress_tests)]: #
 [  - Formy(https://github.com/arturomorarioja/js_formy_cypress_tests)]: #
 [  - Measure converter (Python/Pytest(https://github.com/arturomorarioja/py_measure_converter) | PHP8/PHPUnit(https://github.com/arturomorarioja/measure_converter))]: #
+[- Playwright]: #
+[  - Basic(https://github.com/arturomorarioja/js_basic_playwright_tests). It tests https://practicesoftwaretesting.com/]: #
+[  - Formy(https://github.com/arturomorarioja/js_formy_playwright_tests)]: #
 
 [## Homework]: #
 [- End-to-End Testing]: #
 [  - Solve the Webshop End-to-End Testing Exercise(https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson06/01%20Selenium%20Webshop.md) in Selenium WebDriver, Cypress and Playwright]: #
 [  - You can practice further by automating every page in Formy(https://formy-project.herokuapp.com/) (warning: `autocomplete` may not work) and the-internet(https://the-internet.herokuapp.com/)]: #
-[- Start working on the **First Mandatory Assignment**. Find related information in Itslearning]: #
+[- Start working on the **First Mandatory Assignment**. Find the corresponding information in Itslearning]: #
