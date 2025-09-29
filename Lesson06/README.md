@@ -2,10 +2,12 @@
 
 # Lesson 6 - 30 September
 
+[-> git pull https://github.com/arturomorarioja/js_basic_selenium_webdriver_tests]: #
+
 [-> Solve Customers API]: #
 [-> Slides E2E Testing + CSS demo on EK]: #
 [-> Selenium IDE demo on php_mysql_films_auth]: #
-
+[-> Selenium WebDriver demos: basic, formy, waits]: #
 
 [-> Solve Measure Converter]: #
 
