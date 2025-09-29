@@ -22,6 +22,9 @@
 
 [-> Cypress demo: measure converter]: #
 
+[-> Slides Playwright]: #
+[-> Playwright demo: practicesoftwaretesting.com (tool shop)]: #
+
 [## Exercise solutions]: #
 [- API testing: Customers]: #
 [  - Collection(https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson05/Customers.postman_collection.json)]: #
