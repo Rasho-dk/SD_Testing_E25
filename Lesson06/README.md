@@ -4,6 +4,8 @@
 
 [-> git pull https://github.com/arturomorarioja/js_basic_selenium_webdriver_tests]: #
 [-> git pull https://github.com/arturomorarioja/js_formy_selenium_webdriver_tests]: #
+[-> git pull https://github.com/arturomorarioja/js_basic_cypress_tests]: #
+[-> git pull https://github.com/arturomorarioja/js_formy_cypress_tests]: #
 
 [-> Solve Customers API]: #
 
