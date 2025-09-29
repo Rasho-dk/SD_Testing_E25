@@ -33,6 +33,10 @@
 [  - Basic(https://github.com/arturomorarioja/js_basic_selenium_webdriver_tests)]: #
 [  - Formy(https://github.com/arturomorarioja/js_formy_selenium_webdriver_tests). It tests Meaghan Lewis' Formy(https://formy-project.herokuapp.com/) page]: #
 [  - Waits(https://github.com/arturomorarioja/js_waits_selenium_webdriver_tests)]: #
+[- Cypress]: #
+[  - Basic(https://github.com/arturomorarioja/js_basic_cypress_tests)]: #
+[  - Formy(https://github.com/arturomorarioja/js_formy_cypress_tests)]: #
+[  - Measure converter (Python/Pytest(https://github.com/arturomorarioja/py_measure_converter) | PHP8/PHPUnit(https://github.com/arturomorarioja/measure_converter))]: #
 
 [## Homework]: #
 [- End-to-End Testing]: #
