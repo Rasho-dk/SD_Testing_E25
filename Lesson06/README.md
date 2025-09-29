@@ -7,6 +7,8 @@
 [-> git pull https://github.com/arturomorarioja/js_basic_cypress_tests]: #
 [-> git pull https://github.com/arturomorarioja/js_formy_cypress_tests]: #
 
+[-> Remind ambassadørerbilleder]: #
+
 [-> Solve Customers API]: #
 
 [-> Slides E2E Testing + CSS demo on EK]: #
