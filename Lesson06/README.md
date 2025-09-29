@@ -3,7 +3,9 @@
 # Lesson 6 - 30 September
 
 [-> Solve Customers API]: #
-[-> Slides E2E Testing + CSS demo]: #
+[-> Slides E2E Testing + CSS demo on EK]: #
+[-> Selenium IDE demo on php_mysql_films_auth]: #
+
 
 [-> Solve Measure Converter]: #
 
@@ -17,6 +19,11 @@
 [Check out the following slides on Itslearning]: #
 [- **End-to-End UI Testing**]: #
 [- **Selenium**, with especial attention to Selenium WebDriver(https://www.selenium.dev/documentation/webdriver/)]: #
+[Check out the following code samples]: #
+[- Selenium WebDriver]: #
+[  - Basic(https://github.com/arturomorarioja/js_basic_selenium_webdriver_tests)]: #
+[  - Formy(https://github.com/arturomorarioja/js_formy_selenium_webdriver_tests). It tests Meaghan Lewis' Formy(https://formy-project.herokuapp.com/) page]: #
+[  - Waits(https://github.com/arturomorarioja/js_waits_selenium_webdriver_tests)]: #
 
 [## Homework]: #
 
