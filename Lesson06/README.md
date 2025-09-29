@@ -16,9 +16,11 @@
 [-> Homework: Selenium Webshop]: #
 
 [-> Slides Cypress]: #
-[-> Cypress demos: ]: #
+[-> Cypress demos: basic, formy]: #
 
 [-> Solve Measure Converter]: #
+
+[-> Cypress demo: measure converter]: #
 
 [## Exercise solutions]: #
 [- API testing: Customers]: #
