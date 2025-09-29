@@ -6,6 +6,8 @@
 [-> git pull https://github.com/arturomorarioja/js_formy_selenium_webdriver_tests]: #
 [-> git pull https://github.com/arturomorarioja/js_basic_cypress_tests]: #
 [-> git pull https://github.com/arturomorarioja/js_formy_cypress_tests]: #
+[-> git pull https://github.com/arturomorarioja/js_webshop]: #
+[-> git pull https://github.com/arturomorarioja/js_webshop_e2e_tests (Cypress)]: #
 
 [-> Remind ambassadørerbilleder]: #
 
