@@ -35,5 +35,7 @@
 [  - Waits(https://github.com/arturomorarioja/js_waits_selenium_webdriver_tests)]: #
 
 [## Homework]: #
-[- Solve the Webshop End-to-End Testing Exercise(https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson06/01%20Selenium%20Webshop.md) in Selenium WebDriver, Cypress and Playwright]: #
-[Start working on the **First Mandatory Assignment**. Find related information in Itslearning]: #
+[- End-to-End Testing]: #
+[  - Solve the Webshop End-to-End Testing Exercise(https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson06/01%20Selenium%20Webshop.md) in Selenium WebDriver, Cypress and Playwright]: #
+[  - You can practice further by automating every page in Formy(https://formy-project.herokuapp.com/) (warning: `autocomplete` may not work) and the-internet(https://the-internet.herokuapp.com/)]: #
+[- Start working on the **First Mandatory Assignment**. Find related information in Itslearning]: #
