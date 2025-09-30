@@ -6,7 +6,7 @@
 - API testing: Customers
   - [Collection](https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson05/Customers.postman_collection.json)
   - [Environment](https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson05/Customers.postman_environment.json)
-- Unit and integration testing: Measure converter ([Python/Pytest](https://github.com/arturomorarioja/py_measure_converter) | [PHP/PHPUnit](https://github.com/arturomorarioja/measure_converter)
+- Unit and integration testing: Measure converter ([Python/Pytest](https://github.com/arturomorarioja/py_measure_converter) | [PHP/PHPUnit](https://github.com/arturomorarioja/measure_converter))
 
 ## Class takeaways
 Check out the following slides on Itslearning
@@ -19,17 +19,16 @@ Check out the following code samples
   - [Basic](https://github.com/arturomorarioja/js_basic_selenium_webdriver_tests)
   - [Formy](https://github.com/arturomorarioja/js_formy_selenium_webdriver_tests). It tests Meaghan Lewis' [Formy](https://formy-project.herokuapp.com/) page
   - [Waits](https://github.com/arturomorarioja/js_waits_selenium_webdriver_tests)
-    
-[- Cypress]: #
-[  - Basic(https://github.com/arturomorarioja/js_basic_cypress_tests)]: #
-[  - Formy(https://github.com/arturomorarioja/js_formy_cypress_tests)]: #
-[  - Measure converter (Python/Pytest(https://github.com/arturomorarioja/py_measure_converter) | PHP8/PHPUnit(https://github.com/arturomorarioja/measure_converter))]: #
-[- Playwright]: #
-[  - Basic(https://github.com/arturomorarioja/js_basic_playwright_tests). It tests https://practicesoftwaretesting.com/]: #
-[  - Formy(https://github.com/arturomorarioja/js_formy_playwright_tests)]: #
+- Cypress
+  - [Basic](https://github.com/arturomorarioja/js_basic_cypress_tests)
+  - [Formy](https://github.com/arturomorarioja/js_formy_cypress_tests)
+  - Measure converter ([Python/Pytest](https://github.com/arturomorarioja/py_measure_converter) | [PHP8/PHPUnit](https://github.com/arturomorarioja/measure_converter))
+- Playwright
+  - [Basic](https://github.com/arturomorarioja/js_basic_playwright_tests). It tests https://practicesoftwaretesting.com/
+  - [Formy](https://github.com/arturomorarioja/js_formy_playwright_tests)
 
-[## Homework]: #
-[- End-to-End Testing]: #
-[  - Solve the Webshop End-to-End Testing Exercise(https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson06/01%20Selenium%20Webshop.md) in Selenium WebDriver, Cypress and Playwright]: #
-[  - You can practice further by automating every page in Formy(https://formy-project.herokuapp.com/) (warning: `autocomplete` may not work) and the-internet(https://the-internet.herokuapp.com/)]: #
-[- Start working on the **First Mandatory Assignment**. Find the corresponding information in Itslearning]: #
+[## Homework
+- End-to-End Testing
+  - Solve the Webshop End-to-End Testing Exercise(https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson06/01%20Selenium%20Webshop.md) in Selenium WebDriver, Cypress and Playwright
+  - You can practice further by automating every page in Formy(https://formy-project.herokuapp.com/) (warning: `autocomplete` may not work) and the-internet(https://the-internet.herokuapp.com/)
+- Start working on the **First Mandatory Assignment**. Find the corresponding information in Itslearning
