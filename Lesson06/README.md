@@ -2,8 +2,6 @@
 
 # Lesson 6 - 30 September
 
-[-> Selenium WebDriver demos: basic, formy (+pom), waits]: #
-[-> Explain Selenium Grid]: #
 [-> Homework: Selenium Webshop]: #
 
 [-> Slides Cypress]: #
@@ -23,17 +21,18 @@
     
 [- Unit and integration testing: Measure converter (Python/Pytest(https://github.com/arturomorarioja/py_measure_converter) | PHP/PHPUnit(https://github.com/arturomorarioja/measure_converter)]: #
 
-[## Class takeaways]: #
-[Check out the following slides on Itslearning]: #
-[- **End-to-End UI Testing**]: #
-[- **Selenium**, with especial attention to Selenium WebDriver(https://www.selenium.dev/documentation/webdriver/)]: #
-[- **Cypress**]: #
-[- **Playwright**]: #
-[Check out the following code samples]: #
-[- Selenium WebDriver]: #
-[  - Basic(https://github.com/arturomorarioja/js_basic_selenium_webdriver_tests)]: #
-[  - Formy(https://github.com/arturomorarioja/js_formy_selenium_webdriver_tests). It tests Meaghan Lewis' Formy(https://formy-project.herokuapp.com/) page]: #
-[  - Waits(https://github.com/arturomorarioja/js_waits_selenium_webdriver_tests)]: #
+## Class takeaways
+Check out the following slides on Itslearning
+- **End-to-End UI Testing**
+- **Selenium**, with especial attention to [Selenium WebDriver](https://www.selenium.dev/documentation/webdriver/)
+- **Cypress**
+- **Playwright**
+Check out the following code samples
+- Selenium WebDriver
+  - [Basic](https://github.com/arturomorarioja/js_basic_selenium_webdriver_tests)
+  - [Formy](https://github.com/arturomorarioja/js_formy_selenium_webdriver_tests). It tests Meaghan Lewis' Formy(https://formy-project.herokuapp.com/) page
+  - [Waits](https://github.com/arturomorarioja/js_waits_selenium_webdriver_tests)
+    
 [- Cypress]: #
 [  - Basic(https://github.com/arturomorarioja/js_basic_cypress_tests)]: #
 [  - Formy(https://github.com/arturomorarioja/js_formy_cypress_tests)]: #
