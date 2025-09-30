@@ -27,8 +27,8 @@ Check out the following code samples
   - [Basic](https://github.com/arturomorarioja/js_basic_playwright_tests). It tests https://practicesoftwaretesting.com/
   - [Formy](https://github.com/arturomorarioja/js_formy_playwright_tests)
 
-[## Homework
+## Homework
 - End-to-End Testing
   - Solve the Webshop End-to-End Testing Exercise(https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson06/01%20Selenium%20Webshop.md) in Selenium WebDriver, Cypress and Playwright
-  - You can practice further by automating every page in Formy(https://formy-project.herokuapp.com/) (warning: `autocomplete` may not work) and the-internet(https://the-internet.herokuapp.com/)
+  - You can practice further by automating every page in [Formy](https://formy-project.herokuapp.com/) (warning: `autocomplete` may not work) and [the-internet](https://the-internet.herokuapp.com/)
 - Start working on the **First Mandatory Assignment**. Find the corresponding information in Itslearning
