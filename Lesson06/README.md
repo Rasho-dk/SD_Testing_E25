@@ -2,19 +2,6 @@
 
 # Lesson 6 - 30 September
 
-[-> git pull https://github.com/arturomorarioja/js_basic_selenium_webdriver_tests]: #
-[-> git pull https://github.com/arturomorarioja/js_formy_selenium_webdriver_tests]: #
-[-> git pull https://github.com/arturomorarioja/js_basic_cypress_tests]: #
-[-> git pull https://github.com/arturomorarioja/js_formy_cypress_tests]: #
-[-> git pull https://github.com/arturomorarioja/js_webshop]: #
-[-> git pull https://github.com/arturomorarioja/js_webshop_e2e_tests (Cypress)]: #
-
-[-> Remind ambassadørerbilleder]: #
-
-[-> Solve Customers API]: #
-
-[-> Slides E2E Testing + CSS demo on EK]: #
-[-> Selenium IDE demo on php_mysql_films_auth]: #
 [-> Selenium WebDriver demos: basic, formy (+pom), waits]: #
 [-> Explain Selenium Grid]: #
 [-> Homework: Selenium Webshop]: #
@@ -29,10 +16,11 @@
 [-> Slides Playwright]: #
 [-> Playwright demo: practicesoftwaretesting.com (tool shop)]: #
 
-[## Exercise solutions]: #
-[- API testing: Customers]: #
-[  - Collection(https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson05/Customers.postman_collection.json)]: #
-[  - Environment(https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson05/Customers.postman_environment.json)]: #
+## Exercise solutions
+- API testing: Customers
+  - [Collection](https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson05/Customers.postman_collection.json)
+  - [Environment](https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson05/Customers.postman_environment.json)
+    
 [- Unit and integration testing: Measure converter (Python/Pytest(https://github.com/arturomorarioja/py_measure_converter) | PHP/PHPUnit(https://github.com/arturomorarioja/measure_converter)]: #
 
 [## Class takeaways]: #
