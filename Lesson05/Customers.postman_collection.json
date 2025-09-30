@@ -88,7 +88,7 @@
 							"    pm.response.to.have.status(201);\r",
 							"});\r",
 							"\r",
-							"const customerID = pm.response.json().customer_id;\r",
+							"const customerID = pm.response.json()['Customer ID'];\r",
 							"pm.environment.set('CUSTOMER_ID', customerID)\r",
 							"\r",
 							"pm.test(\"Returned customer ID is a number\", function () {\r",
@@ -160,22 +160,24 @@
 							"    const jsonData = pm.response.json();\r",
 							"\r",
 							"    jsonData.forEach((item, index) => {\r",
-							"        pm.expect(item).to.have.property(\"customer_id\").that.is.a(\"number\");\r",
-							"        pm.expect(item).to.have.property(\"first_name\").that.is.a(\"string\");\r",
-							"        pm.expect(item).to.have.property(\"last_name\").that.is.a(\"string\");\r",
-							"        pm.expect(item).to.have.property(\"phone_no\").that.is.a(\"string\");\r",
-							"        pm.expect(item).to.have.property(\"address\").that.is.a(\"string\");\r",
-							"        pm.expect(item).to.have.property(\"onboarding_date\").that.is.a(\"string\");\r",
+							"        pm.expect(item).to.have.property(\"Customer ID\").that.is.a(\"number\");\r",
+							"        pm.expect(item).to.have.property(\"First Name\").that.is.a(\"string\");\r",
+							"        pm.expect(item).to.have.property(\"Last Name\").that.is.a(\"string\");\r",
+							"        pm.expect(item).to.have.property(\"Phone No\").that.is.a(\"string\");\r",
+							"        pm.expect(item).to.have.property(\"Address\").that.is.a(\"string\");\r",
+							"        pm.expect(item).to.have.property(\"Onboarding Date\").that.is.a(\"string\");\r",
 							"\r",
-							"        if (item.phone_no.length > 0) {\r",
-							"            pm.expect(item.phone_no).to.match(/^\\d{8}$/);\r",
+							"        if (item[\"Phone No\"].length > 0) {\r",
+							"            pm.expect(item[\"Phone No\"]).to.match(/^\\d{8}$/);\r",
 							"        }\r",
-							"        pm.expect(item.onboarding_date).to.match(/^\\d{8}$/);\r",
+							"        pm.expect(item[\"Onboarding Date\"]).to.match(/^\\d{8}$/);\r",
 							"    });\r",
-							"});"
+							"});\r",
+							""
 						],
 						"type": "text/javascript",
-						"packages": {}
+						"packages": {},
+						"requests": {}
 					}
 				}
 			],
@@ -207,24 +209,25 @@
 							"\r",
 							"const jsonData = pm.response.json();\r",
 							"pm.test(\"Gets correct customer ID\", function () {\r",
-							"    pm.expect(jsonData['customer_id']).to.eql(pm.environment.get('CUSTOMER_ID'));\r",
+							"    pm.expect(jsonData['Customer ID']).to.eql(pm.environment.get('CUSTOMER_ID'));\r",
 							"});\r",
 							"\r",
 							"pm.test(\"All fields have correct types\", function() {\r",
-							"    pm.expect(jsonData).to.have.property(\"first_name\").that.is.a(\"string\");\r",
-							"    pm.expect(jsonData).to.have.property(\"last_name\").that.is.a(\"string\");\r",
-							"    pm.expect(jsonData).to.have.property(\"phone_no\").that.is.a(\"string\");\r",
-							"    pm.expect(jsonData).to.have.property(\"address\").that.is.a(\"string\");\r",
-							"    pm.expect(jsonData).to.have.property(\"onboarding_date\").that.is.a(\"string\");\r",
+							"    pm.expect(jsonData).to.have.property(\"First Name\").that.is.a(\"string\");\r",
+							"    pm.expect(jsonData).to.have.property(\"Last Name\").that.is.a(\"string\");\r",
+							"    pm.expect(jsonData).to.have.property(\"Phone No\").that.is.a(\"string\");\r",
+							"    pm.expect(jsonData).to.have.property(\"Address\").that.is.a(\"string\");\r",
+							"    pm.expect(jsonData).to.have.property(\"Onboarding Date\").that.is.a(\"string\");\r",
 							"\r",
-							"    if (jsonData.phone_no.length > 0) {\r",
-							"        pm.expect(jsonData.phone_no).to.match(/^\\d{8}$/);\r",
+							"    if (jsonData[\"Phone No\"].length > 0) {\r",
+							"        pm.expect(jsonData[\"Phone No\"]).to.match(/^\\d{8}$/);\r",
 							"    }\r",
-							"    pm.expect(jsonData.onboarding_date).to.match(/^\\d{8}$/);\r",
+							"    pm.expect(jsonData[\"Onboarding Date\"]).to.match(/^\\d{8}$/);\r",
 							"});"
 						],
 						"type": "text/javascript",
-						"packages": {}
+						"packages": {},
+						"requests": {}
 					}
 				}
 			],
@@ -259,24 +262,25 @@
 							"    const jsonData = pm.response.json();\r",
 							"\r",
 							"    jsonData.forEach((item, index) => {\r",
-							"        pm.expect(item).to.have.property(\"customer_id\").that.is.a(\"number\");\r",
-							"        pm.expect(item).to.have.property(\"first_name\").that.is.a(\"string\");\r",
-							"        pm.expect(item).to.have.property(\"last_name\").that.is.a(\"string\");\r",
-							"        pm.expect(item).to.have.property(\"phone_no\").that.is.a(\"string\");\r",
-							"        pm.expect(item).to.have.property(\"address\").that.is.a(\"string\");\r",
-							"        pm.expect(item).to.have.property(\"onboarding_date\").that.is.a(\"string\");\r",
+							"        pm.expect(item).to.have.property(\"Customer ID\").that.is.a(\"number\");\r",
+							"        pm.expect(item).to.have.property(\"First Name\").that.is.a(\"string\");\r",
+							"        pm.expect(item).to.have.property(\"Last Name\").that.is.a(\"string\");\r",
+							"        pm.expect(item).to.have.property(\"Phone No\").that.is.a(\"string\");\r",
+							"        pm.expect(item).to.have.property(\"Address\").that.is.a(\"string\");\r",
+							"        pm.expect(item).to.have.property(\"Onboarding Date\").that.is.a(\"string\");\r",
 							"\r",
-							"        if (item.phone_no.length > 0) {\r",
-							"            pm.expect(item.phone_no).to.match(/^\\d{8}$/);\r",
+							"        if (item[\"Phone No\"].length > 0) {\r",
+							"            pm.expect(item[\"Phone No\"]).to.match(/^\\d{8}$/);\r",
 							"        }\r",
-							"        pm.expect(item.onboarding_date).to.match(/^\\d{8}$/);\r",
+							"        pm.expect(item[\"Onboarding Date\"]).to.match(/^\\d{8}$/);\r",
 							"\r",
-							"        pm.expect(item.first_name).to.include(pm.environment.get('SEARCH_TERM'));\r",
+							"        pm.expect(item[\"First Name\"]).to.include(pm.environment.get('SEARCH_TERM'));\r",
 							"    });\r",
 							"});"
 						],
 						"type": "text/javascript",
-						"packages": {}
+						"packages": {},
+						"requests": {}
 					}
 				}
 			],
@@ -471,11 +475,12 @@
 							"\r",
 							"pm.test(\"First Name correctly updated\", function () {\r",
 							"    const jsonData = pm.response.json();\r",
-							"    pm.expect(jsonData['first_name']).to.eql(pm.environment.get('UPDATED_FIRST_NAME'));\r",
+							"    pm.expect(jsonData['First Name']).to.eql(pm.environment.get('UPDATED_FIRST_NAME'));\r",
 							"});"
 						],
 						"type": "text/javascript",
-						"packages": {}
+						"packages": {},
+						"requests": {}
 					}
 				}
 			],
