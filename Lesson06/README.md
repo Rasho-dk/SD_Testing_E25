@@ -30,7 +30,7 @@ Check out the following slides on Itslearning
 Check out the following code samples
 - Selenium WebDriver
   - [Basic](https://github.com/arturomorarioja/js_basic_selenium_webdriver_tests)
-  - [Formy](https://github.com/arturomorarioja/js_formy_selenium_webdriver_tests). It tests Meaghan Lewis' Formy(https://formy-project.herokuapp.com/) page
+  - [Formy](https://github.com/arturomorarioja/js_formy_selenium_webdriver_tests). It tests Meaghan Lewis' [Formy](https://formy-project.herokuapp.com/) page
   - [Waits](https://github.com/arturomorarioja/js_waits_selenium_webdriver_tests)
     
 [- Cypress]: #
