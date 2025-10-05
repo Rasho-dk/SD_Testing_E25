@@ -10,10 +10,15 @@
 [- Cypress(https://github.com/arturomorarioja/js_webshop_e2e_tests)]: #
 [- Playwright for JavaScript(https://github.com/arturomorarioja/js_webshop_playwright_tests)]: #
 
-[## In-class exercise]: #
+[## In-class exercises]: #
+
+[### Acceptance Testing]: #
 [Write an acceptance test procedure for logging in to Itslearning.]: #
 [Work in groups of 5 or 6.]: #
 [Upload your design to our Teams channel (folder `Acceptance Testing exercise`) in your preferred format (xlsx, pdf, docx).]: #
+
+[### Test-Driven Development]: #
+[Words(https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson07/01%20Words.md)]: #
 
 [## Class takeaways]: #
 [Check out the following slides on Itslearning and associated materials]: #
@@ -35,3 +40,8 @@
 [      - 05 Refactor to Improve the Design(https://www.linkedin.com/learning/programming-foundations-test-driven-development-2/refactor-to-improve-the-design)]: #
 [      - 06 Challenge: Functionality(https://www.linkedin.com/learning/programming-foundations-test-driven-development-2/2915490)]: #
 [      - 07 Solution: Functionality(https://www.linkedin.com/learning/programming-foundations-test-driven-development-2/2915491)]: #
+
+[## Homework]: #
+[- Keep working on the First Mandatory Assignment]: #
+[- Finish pending exercises regardless of topic]: #
+[- Practice everything covered so far in the subject]: #
