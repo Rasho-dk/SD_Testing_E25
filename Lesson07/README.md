@@ -24,3 +24,14 @@
 [- **Agile and Testing**]: #
 [  - Download the free e-book *Scrum and XP from the Trenches. How We Do Scrum*, 2nd ed.(https://www.infoq.com/minibooks/scrum-xp-from-the-trenches-2/) (Henrik Kniberg, 2015). Focus specifically in the chapter "How we do testing" (pp. 115-128)]: #
 [- **Test-Driven Development]: #
+[  - LinkedIn Learning videos illustrating the process:]: #
+[    - *Unit Testing and Test Driven Development in Python* (Richard Wells, 2018)]: #
+[      - Example TDD session: The FizzBuzz Kata(https://www.linkedin.com/learning/unit-testing-and-test-driven-development-in-python/example-tdd-session-the-fizzbuzz-kata)]: #
+[    - *Programming Foundations: Test-Driven Development* (Neelam Dwivedi, 2024)]: #
+[      - 01 Writing Test Cases(https://www.linkedin.com/learning/programming-foundations-test-driven-development-2/writing-test-cases)]: #
+[      - 02 TDD and Agile(https://www.linkedin.com/learning/programming-foundations-test-driven-development-2/tdd-and-agile)]: #
+[      - 03 Where to Start?(https://www.linkedin.com/learning/programming-foundations-test-driven-development-2/where-to-start)]: #
+[      - 04 The Iterative Red-Green-Refactor Cycle(https://www.linkedin.com/learning/programming-foundations-test-driven-development-2/the-iterative-red-green-refactor-cycle)]: #
+[      - 05 Refactor to Improve the Design(https://www.linkedin.com/learning/programming-foundations-test-driven-development-2/refactor-to-improve-the-design)]: #
+[      - 06 Challenge: Functionality(https://www.linkedin.com/learning/programming-foundations-test-driven-development-2/2915490)]: #
+[      - 07 Solution: Functionality(https://www.linkedin.com/learning/programming-foundations-test-driven-development-2/2915491)]: #
