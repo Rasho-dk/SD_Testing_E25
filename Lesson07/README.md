@@ -4,6 +4,8 @@
 
 [-> download Agile and Testing slides]: #
 
+[-> at some point discuss 1MA groups]: #
+
 [## Exercise solutions]: #
 [Webshop:]: #
 [- Selenium WebDriver for Python and Firefox(https://github.com/arturomorarioja/webshop_selenium_py_e2e)]: #
