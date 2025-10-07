@@ -2,8 +2,6 @@
 
 # Lesson 7 - 7 October
 
-[-> download Agile and Testing slides]: #
-
 [-> at some point discuss 1MA groups]: #
 
 [## Exercise solutions]: #
@@ -12,12 +10,12 @@
 [- Cypress(https://github.com/arturomorarioja/js_webshop_e2e_tests)]: #
 [- Playwright for JavaScript(https://github.com/arturomorarioja/js_webshop_playwright_tests)]: #
 
-[## In-class exercises]: #
+## In-class exercises
 
-[### Acceptance Testing]: #
-[Write an acceptance test procedure for logging in to Itslearning.]: #
-[Work in groups of 5 or 6.]: #
-[Upload your design to our Teams channel (folder `Acceptance Testing exercise`) in your preferred format (xlsx, pdf, docx).]: #
+### Acceptance Testing
+Write an acceptance test procedure for logging in to Itslearning.
+Work in groups of 5 or 6.
+Upload your design to our Teams channel (folder `Acceptance Testing exercise`) in your preferred format (xlsx, pdf, docx).
 
 [### Test-Driven Development]: #
 [Words(https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson07/01%20Words.md)]: #
