@@ -26,7 +26,7 @@ Check out the following slides on Itslearning and associated materials
     - [Acceptance Test checklist](https://github.com/arturomorarioja-ek/SD_Testing_E25/blob/main/Lesson07/Acceptance%20Test%20checklist.xlsx)
 - **Agile and Testing**
   - Download the free e-book [*Scrum and XP from the Trenches. How We Do Scrum*, 2nd ed.](https://www.infoq.com/minibooks/scrum-xp-from-the-trenches-2/) (Henrik Kniberg, 2015). Focus specifically in the chapter "How we do testing" (pp. 115-128)
-- **Test-Driven Development
+- **Test-Driven Development**
   - LinkedIn Learning videos illustrating the process:
     - *Unit Testing and Test Driven Development in Python* (Richard Wells, 2018)
       - [Example TDD session: The FizzBuzz Kata](https://www.linkedin.com/learning/unit-testing-and-test-driven-development-in-python/example-tdd-session-the-fizzbuzz-kata)
