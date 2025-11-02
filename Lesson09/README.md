@@ -8,7 +8,9 @@
 [  -> In-class exercise]: #
 [-> Conference takeaways: testers + Predrag + Boni + pyramid]: #
 [-> Static testing: reviews]: #
-[  -> Exercise as homework]: #
+[  -> Show code review video]: #
+[  -> In-class exercise]: #
+[  -> Group exercise as homework]: #
 
 [## Exercise solution]: #
 [- TDD: Words (Python/Pytest(https://github.com/arturomorarioja/py_words) | JavaScript/Jest(https://github.com/arturomorarioja/js_words) | PHP/PHPUnit(https://github.com/arturomorarioja/php_words))]: #
@@ -84,5 +86,5 @@
 [    - 1 moderator]: #
 [    - N reviewers]: #
 [    - 1 scribe]: #
-[  - Each group will upload a final review document (pdf file) to Teams (folder `Static Testing - Review Exercise/Reviews`)]: #
+[  - Each group will upload a summary review report (pdf file) to Teams (folder `Static Testing - Review Exercise/Reviews`). Follow the format described in the slides]: #
 [  - The name of the file will be the name of the application under review. Please add your names to the document]: #
