@@ -30,20 +30,20 @@ You, a group of students from EK, have received a formal request from Copenhagen
 
 You agree with the customer on having the web site active by January 1st, 2026.
 
-[**Exercise**]: #
+**Exercise**
 
-[Work in groups of 5 or 6.]: #
+Work in groups of 5 or 6.
 
-[- Identify every possible risk]: #
-[- For each risk]: #
-[  - Give it an ID, a name, and a description]: #
-[  - Estimate its probability and impact]: #
-[  - Calculate its risk factor]: #
-[  - Elaborate a list of possible mitigation actions]: #
-[  - Establish status and follow-up dates]: #
-[- Elaborate the corresponding risk table]: #
-[- Elaborate the corresponding risk matrix]: #
-[- Upload them in a pdf, xlsx or docx document to our Teams group (folder Risk Analysis)]: #
+- Identify every possible risk
+- For each risk
+  - Give it an ID, a name, and a description
+  - Estimate its probability and impact
+  - Calculate its risk factor
+  - Elaborate a list of possible mitigation actions
+  - Establish status and follow-up dates
+- Elaborate the corresponding risk table
+- Elaborate the corresponding risk matrix
+- Upload them in a pdf, xlsx or docx document to our Teams group (folder Risk Analysis)
 
 [### Review]: #
 [Review the following software requirements specification:]: #
